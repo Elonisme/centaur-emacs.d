@@ -43,7 +43,8 @@
   ;; If using org-roam-protocol
   (require 'org-roam-protocol))
 
-(setq org-ai-openai-api-token "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")
+(load-file "~/.emacs.d/keys/chatai-key.el")
+(require 'chatai-key)
 
 
 ;;; custom-post.el ends here
