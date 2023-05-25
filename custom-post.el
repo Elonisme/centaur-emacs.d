@@ -24,13 +24,6 @@
   :config
   (org-ai-install-yasnippets)) ; if you are using yasnippet and want `ai` snippets
 
-(use-package whisper
-  :load-path "~/.emacs.d/whisper.el/whisper.el"
-  :bind ("M-s-r" . whisper-run))
-
-(use-package greader :ensure)
-(require 'whisper)
-(require 'org-ai-talk)
 
 (use-package org-roam
   :ensure t
