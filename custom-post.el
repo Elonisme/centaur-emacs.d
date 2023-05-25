@@ -24,13 +24,13 @@
   :config
   (org-ai-install-yasnippets)) ; if you are using yasnippet and want `ai` snippets
 
-;; (use-package whisper
-;;   :load-path "./whisper/whisper.el"
-;;   :bind ("M-s-r" . whisper-run))
+(use-package whisper
+  :load-path "~/.emacs.d/whisper.el/whisper.el"
+  :bind ("M-s-r" . whisper-run))
 
-;; (use-package greader :ensure)
-;; (require 'whisper)
-;; (require 'org-ai-talk)
+(use-package greader :ensure)
+(require 'whisper)
+(require 'org-ai-talk)
 
 (use-package org-roam
   :ensure t
@@ -50,7 +50,7 @@
   ;; If using org-roam-protocol
   (require 'org-roam-protocol))
 
-(setq org-ai-openai-api-token "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")
+(setq org-ai-openai-api-token "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")
 
 
 ;;; custom-post.el ends here
