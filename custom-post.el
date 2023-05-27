@@ -6,6 +6,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/user-config/")
 (require 'init-find)
+(require 'init-restart-emacs)
 (require 'init-rime)
 (require 'init-org-ai)
 (require 'init-org-noter)
@@ -14,5 +15,4 @@
 (require 'init-helm-bibtex)
 (require 'init-org-roam-bibtex)
 (require 'init-org-roam)
-;;(require 'init-anki)
 ;;; custom-post.el ends here

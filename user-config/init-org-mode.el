@@ -25,5 +25,7 @@
 (setq org-latex-listings 'minted)
 (add-to-list 'org-latex-packages-alist '("" "minted"))
 
+(global-set-key (kbd "C-c SPC") 'org-mark-ring-goto)
+
 (provide 'init-org-mode)
 ;;; init-org-mode.el ends here
