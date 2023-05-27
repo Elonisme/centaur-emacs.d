@@ -4,7 +4,7 @@
 
 ;;; Code:
 
-(add-to-list 'load-path "~/.emacs.d/user-config/")
+(add-to-list 'load-path "~/.emacs.d/user-config")
 (require 'init-find)
 (require 'init-restart-emacs)
 (require 'init-rime)
